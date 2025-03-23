@@ -1,0 +1,296 @@
+/* Custom styles for ODOOTEAM website - Modern and Professional */
+
+:root {
+    --primary-color: #007bff; /* Vibrant blue */
+    --secondary-color: #0056b3; /* Darker blue */
+    --accent-color: #28a745; /* Green */
+    --background-color: #f8f9fa; /* Light gray */
+    --text-color: #343a40; /* Dark gray */
+    --light-text-color: #6c757d; /* Gray */
+    --white: #ffffff;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* --- Typography --- */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: var(--light-text-color);
+}
+
+/* --- Navigation Bar --- */
+.navbar {
+    background-color: var(--white) !important;
+    box-shadow: var(--shadow);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--primary-color) !important;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: var(--text-color) !important;
+    font-weight: 500;
+    transition: var(--transition);
+    margin: 0 0.75rem;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+/* --- Language Switcher --- */
+.lang-switcher {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: var(--transition);
+    margin: 0 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.lang-btn:hover {
+    background: rgba(0, 123, 255, 0.1);
+    transform: scale(1.1);
+}
+
+.lang-flag {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    box-shadow: var(--shadow);
+}
+
+/* --- Hero Section --- */
+.hero {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    padding: 6rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    background-color: var(--white);
+    color: var(--primary-color);
+    border: 2px solid var(--white);
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.hero .btn:hover {
+    background-color: transparent;
+    color: var(--white);
+    border-color: var(--white);
+}
+
+/* --- Cards --- */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    overflow: hidden;
+    background: var(--white);
+    margin-bottom: 2rem;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* --- Service Cards --- */
+.service-card {
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 15px;
+    transition: var(--transition);
+}
+
+.service-card i {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    transition: var(--transition);
+}
+
+.service-card:hover {
+    border-color: var(--primary-color);
+}
+
+.service-card:hover i {
+    transform: scale(1.2);
+    color: var(--accent-color);
+}
+
+.service-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.service-features li {
+    margin-bottom: 0.75rem;
+    color: var(--light-text-color);
+}
+
+.service-features li i {
+    color: var(--accent-color);
+    margin-right: 0.5rem;
+}
+
+/* --- Buttons --- */
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+/* --- Footer --- */
+footer {
+    background-color: var(--white);
+    padding: 3rem 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer h5 {
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+}
+
+footer p {
+    color: var(--light-text-color);
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+footer a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+/* --- Animations --- */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-card {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.animate-slide-up {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+/* --- RTL Support --- */
+[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+[dir="rtl"] .navbar-nav {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+[dir="rtl"] .lang-switcher {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+[dir="rtl"] .service-card {
+    border-right: 4px solid var(--primary-color);
+    border-left: none;
+}
+
+[dir="rtl"] .service-card i {
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+
+[dir="rtl"] .service-card:hover i {
+    transform: scale(1.2);
+    margin-left: 0.8rem;
+}

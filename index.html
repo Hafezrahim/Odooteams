@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODOOTEAM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#" data-i18n="nav.brand">ODOOTEAM</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html" data-i18n="nav.home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html" data-i18n="nav.about">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="services.html" data-i18n="nav.services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html" data-i18n="nav.portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="blog.html" data-i18n="nav.blog">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pricing.html" data-i18n="nav.pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html" data-i18n="nav.contact">Contact Us</a>
+            </li>
+        </ul>
+        <div class="lang-switcher d-flex">
+            <button class="lang-btn" data-lang="en-GB">
+                <img src="images/en.png" alt="English Flag" class="lang-flag">
+            </button>
+            <button class="lang-btn" data-lang="ar-SA">
+                <img src="images/ar.png" alt="Arabic Flag" class="lang-flag">
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="jumbotron jumbotron-fluid bg-primary text-white text-center">
+    <div class="container">
+        <h1 data-i18n="hero-title">ODOOTEAM</h1>
+        <p class="lead" data-i18n="hero-lead">Get Started with Odoo Today</p>
+        <a href="#" class="btn btn-light btn-lg" data-i18n="hero-btn">Learn More</a>
+    </div>
+</header>
+
+<!-- About ODOOTEAM -->
+<section class="container mt-5">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/Logo.webp" alt="ODOOTEAM Logo" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                    <h2 data-i18n="about-title">About ODOOTEAM</h2>
+                    <p data-i18n="about-desc">We have been providing Odoo development, implementation, and consultation in Egypt since 2019.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="services-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 animate-fade-in" data-i18n="services.title">Our Professional Services</h2>
+    <div class="row">
+      <!-- Odoo Development -->
+      <div class="col-md-4 mb-4">
+        <div class="card service-card animate-slide-up h-100">
+          <div class="card-body d-flex flex-column">
+            <div class="icon-container mb-3">
+              <i class="fas fa-code fa-3x text-primary service-icon development-icon"></i>
+            </div>
+            <h3 class="mt-3" data-i18n="services.development.title">Odoo Development</h3>
+            <p data-i18n="services.development.desc">Custom solutions tailored to your business needs:</p>
+            <ul class="service-features flex-grow-1">
+              <li><i class="fas fa-check-circle text-success"></i> <span data-i18n="services.development.feature1">Module Development</span></li>
+              <li><i class="fas fa-check-circle text-success"></i> <span data-i18n="services.development.feature2">API Integration</span></li>
+              <li><i class="fas fa-check-circle text-success"></i> <span data-i18n="services.development.feature3">System Customization</span></li>
+            </ul>
+            <div class="cta-button">
+              <a href="#" class="btn btn-outline-primary" data-i18n="services.learn-more">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Odoo Implementation -->
+      <div class="col-md-4 mb-4">
+        <div class="card service-card animate-slide-up h-100">
+          <div class="card-body d-flex flex-column">
+            <div class="icon-container mb-3">
+              <i class="fas fa-rocket fa-3x text-primary service-icon implementation-icon"></i>
+            </div>
+            <h3 class="mt-3" data-i18n="services.implementation.title">Odoo Implementation</h3>
+            <p data-i18n="services.implementation.desc">Seamless deployment process:</p>
+            <ul class="service-features flex-grow-1">
+              <li><i class="fas fa-check-circle text-success"></i> <span data-i18n="services.implementation.feature1">System Configuration</span></li>
+              <li><i class="fas fa-check-circle text-success"></i> <span data-i18n="services.implementation.feature2">Data Migration</span></li>
+              <li><i class="fas fa-check-circle text-success"></i> <span data-i18n="services.implementation.feature3">User Training</span></li>
+            </ul>
+            <div class="cta-button">
+              <a href="#" class="btn btn-outline-primary" data-i18n="services.learn-more">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Odoo Consultation -->
+      <div class="col-md-4 mb-4">
+        <div class="card service-card animate-slide-up h-100">
+          <div class="card-body d-flex flex-column">
+            <div class="icon-container mb-3">
+              <i class="fas fa-chart-line fa-3x text-primary service-icon consultation-icon"></i>
+            </div>
+            <h3 class="mt-3" data-i18n="services.consultation.title">Odoo Consultation</h3>
+            <p data-i18n="services.consultation.desc">Strategic business optimization:</p>
+            <ul class="service-features flex-grow-1">
+              <li><i class="fas fa-check-circle text-success"></i> <span data-i18n="services.consultation.feature1">Process Analysis</span></li>
+              <li><i class="fas fa-check-circle text-success"></i> <span data-i18n="services.consultation.feature2">Workflow Design</span></li>
+              <li><i class="fas fa-check-circle text-success"></i> <span data-i18n="services.consultation.feature3">ERP Strategy</span></li>
+            </ul>
+            <div class="cta-button">
+              <a href="#" class="btn btn-outline-primary" data-i18n="services.learn-more">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+                <!-- Add more carousel-item divs for additional projects as needed -->
+            </div>
+            <a class="carousel-control-prev" href="#featuredProjectsCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#featuredProjectsCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+     <!-- Client Testimonials -->
+    <section class="container mt-5">
+        <h2 data-i18n="testimonials-title">Client Testimonials</h2>
+        <div id="testimonialsCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="images/Logo.webp" class="card-img-top" alt="Testimonial 1">
+                                <div class="card-body">
+                                    <p class="card-text" data-i18n="testimonial-1">"Great service and support!" - Client 1</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="images/Logo.webp" class="card-img-top" alt="Testimonial 2">
+                                <div class="card-body">
+                                    <p class="card-text" data-i18n="testimonial-2">"Highly recommended!\" - Client 2</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="images/Logo.webp" class="card-img-top" alt="Testimonial 3">
+                                <div class="card-body">
+                                    <p class="card-text" data-i18n="testimonial-3">"Excellent work!" - Client 3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more carousel-item divs for additional testimonials as needed -->
+            </div>
+            <a class="carousel-control-prev" href="#testimonialsCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonialsCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+   <!-- Partners & Certifications -->
+    <section class="container mt-5">
+        <h2>Partners & Certifications</h2>
+        <div id="partnersCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="images/Logo.webp" class="card-img-top" alt="Partner 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Partner 1</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="images/Logo.webp" class="card-img-top" alt="Partner 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Partner 2</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="images/Logo.webp" class="card-img-top" alt="Partner 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Partner 3</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more carousel-item divs for additional partners as needed -->
+
+            </div>
+             <a class="carousel-control-prev" href="#partnersCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#partnersCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+  <!-- Why Choose Us? -->
+  <section class="container mt-5">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+         <!-- Contact and Follow Us -->
+        <div class="col-md-4">
+            <h5>Contact & Follow Us</h5>
+            <p>
+                <i class="fas fa-phone"></i> Phone: +201007419344<br>
+                <i class="fas fa-envelope"></i> Email: info@odooteams.com<br>
+                <i class="fas fa-map-marker-alt"></i> Address: 26 Makram Nasr, City, Egypt
+            </p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#" class="text-primary"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="text-info"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="text-danger"><i class="fab fa-instagram-square fa-2x"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="text-primary"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            </ul>
+        </div>
+        <!-- Quick Links -->
+        <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                     </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Service Categories -->
+        <div class="col-md-4">
+            <h5>Service Categories</h5>
+            <ul class="list-unstyled">
+                <li><a href="#">Odoo Development</a></li>
+                <li><a href="#">Odoo Implementation</a></li>
+                <li><a href="#">Odoo Consultation</a></li>
+            </ul>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

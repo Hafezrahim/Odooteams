@@ -1,0 +1,50 @@
+  <!-- Why Choose Us? -->
+    <section class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+             <!-- Contact and Follow Us -->
+            <div class="col-md-4">
+                <h5>Contact & Follow Us</h5>
+                <p>
+                    <i class="fas fa-phone"></i> Phone: +201007419344<br>
+                    <i class="fas fa-envelope"></i> Email: info@odooteams.com<br>
+                    <i class="fas fa-map-marker-alt"></i> Address: 26 Makram Nasr, City, Egypt
+                </p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" class="text-primary"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-info"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-danger"><i class="fab fa-instagram-square fa-2x"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-primary"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                </ul>
+            </div>
+            <!-- Quick Links -->
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                         </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Service Categories -->
+            <div class="col-md-4">
+                <h5>Service Categories</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Odoo Development</a></li>
+                    <li><a href="#">Odoo Implementation</a></li>
+                    <li><a href="#">Odoo Consultation</a></li>
+                </ul>
+            </div>

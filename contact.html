@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="contact.title">Contact Us - ODOOTEAM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html" data-i18n="nav.brand">ODOOTEAM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" data-i18n="nav.home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" data-i18n="nav.about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html" data-i18n="nav.services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html" data-i18n="nav.portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html" data-i18n="nav.blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pricing.html" data-i18n="nav.pricing">Pricing</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html" data-i18n="nav.contact">Contact Us</a>
+                </li>
+            </ul>
+            <div class="lang-switcher d-flex">
+                <button class="lang-btn" data-lang="en-GB">
+                    <img src="images/en.png" alt="English Flag" class="lang-flag">
+                </button>
+            <button class="lang-btn" data-lang="ar-SA">
+                    <img src="images/ar.png" alt="Arabic Flag" class="lang-flag">
+                </button>
+            </div>
+        </div>
+    </nav>
+
+ <!-- Contact Form -->
+    <section class="container mt-5">
+        <h2 data-i18n="contact.form-title">Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name" data-i18n="contact.name-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email" data-i18n="contact.email-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="phone" data-i18n="contact.phone-label">Phone</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <label for="inquiry" data-i18n="contact.inquiry-label">Inquiry Type</label>
+                <select class="form-control" id="inquiry">
+                    <option data-i18n="contact.inquiry-general">General Inquiry</option>
+                    <option data-i18n="contact.inquiry-development">Odoo Development</option>
+                    <option data-i18n="contact.inquiry-implementation">Odoo Implementation</option>
+                    <option data-i18n="contact.inquiry-consultation">Odoo Consultation</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary" data-i18n="contact.submit-btn">Submit</button>
+        </form>
+    </section>
+
+    <!-- WhatsApp & Live Chat Integration -->
+    <section class="container mt-5">
+        <h2 data-i18n="contact.whatsapp-title">WhatsApp & Live Chat Integration</h2>
+        <!-- WhatsApp & Live Chat Integration -->
+    </section>
+
+    <!-- Working Hours -->
+    <section class="container mt-5">
+        <h2 data-i18n="contact.working-hours-title">Working Hours</h2>
+        <p data-i18n="contact.working-hours-details">Sunday - Thursday: 9am - 5pm</p>
+    </section>
+
+  <!-- Why Choose Us? -->
+  <section class="container mt-5">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+         <!-- Contact and Follow Us -->
+        <div class="col-md-4">
+            <h5>Contact & Follow Us</h5>
+            <p>
+                <i class="fas fa-phone"></i> Phone: +201007419344<br>
+                <i class="fas fa-envelope"></i> Email: info@odooteams.com<br>
+                <i class="fas fa-map-marker-alt"></i> Address: 26 Makram Nasr, City, Egypt
+            </p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#" class="text-primary"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="text-info"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="text-danger"><i class="fab fa-instagram-square fa-2x"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="text-primary"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            </ul>
+        </div>
+        <!-- Quick Links -->
+        <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                     </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Service Categories -->
+        <div class="col-md-4">
+            <h5>Service Categories</h5>
+            <ul class="list-unstyled">
+                <li><a href="#">Odoo Development</a></li>
+                <li><a href="#">Odoo Implementation</a></li>
+                <li><a href="#">Odoo Consultation</a></li>
+            </ul>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
